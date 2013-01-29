@@ -11,7 +11,7 @@
     thisForm.hide();
     $('img').show();
     tinyMCE.triggerSave(true, true);
-    $.post('posthandler.php',
+    $.post('httphandler.class.php',
     {
       method:'saveMessage',
       myname:thisName.val(),
